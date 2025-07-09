@@ -1,0 +1,8 @@
+---
+- name: Tesing playbook
+  hosts: localhost
+  tasks:
+    - name: copy
+      copy:
+        content: "Testing:
+        dest: /etc/test
